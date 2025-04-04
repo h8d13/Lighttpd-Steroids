@@ -7,7 +7,8 @@ Prereqs: Docker
 
 ### Install instructions
 
-Create a directory for this to live in for example `mkdir awesomelua`
+Create a directory for this to live in, for example `mkdir awesomelua`
+
 Download the run.py script this contains the docker script to start the container with proper commands (check if you want to modify anything)
 Or use commands manually if you're a wizard. 
 
