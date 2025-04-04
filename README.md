@@ -16,7 +16,7 @@ Go to the release page and download the tar archive: [1.1 Release](https://githu
 
 Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
 
-Move to the directory you created and just make sure it is so:
+Move to the directory you created using `cd` and just make sure it is so:
 ```
 /awesomelua
 \-- run.py
@@ -31,6 +31,8 @@ Good to go you can simply: `sudo python3 run.py`
 
 Simple start/rebuild python script.
 `sudo python3 run.py --rebuild`
+
+> This saves enourmous time creating new features or adding system packages / configs. 
 
 Uses Alpine (5-8Mb) for the core image. 
 Dockerfile & start up scripts for init.
