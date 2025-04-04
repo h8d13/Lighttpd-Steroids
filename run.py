@@ -47,10 +47,10 @@ if __name__ == "__main__":
         create_new_container(custom_image)
         print(f"Container ready with web server. Access at httpS://localhost:{host_port}")
         print(f"Make changes to ./{proj_dir}/{short_project_uuid}/index.html to see live updates")
-        print(f"To start the container again, run: python3 ./Projects/run266749.py")
+        print(f"To start the container again, run: python3 run.py")
         stop_docker()
     else:
         start_docker()
         stop_docker()
 
-print("To rebuild with Dockerfile (including web server): python3 ./Projects/run266749.py --rebuild")
+print("To rebuild with Dockerfile (including web server): python3 run.py --rebuild")
