@@ -36,7 +36,9 @@ Move to the directory you created using `cd` and just make sure it is as so:
 |-- run.py
 ```
 
-If you directory looks like that^ you're good to go!
+**If you directory looks like that^ you're good to go!**
+
+
 `$ sudo python3 run.py`
 
 Then open your browser to `https://localhost` 
