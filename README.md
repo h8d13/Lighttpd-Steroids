@@ -58,6 +58,8 @@ Simple start/rebuild python script using `--rebuild` arg.
 > This saves enourmous time creating new features or adding system packages / configs.
 > Also both should have a proper close mechanism which makes it convenient as it detects `exit`  
 
+## Features 
+
 Uses Alpine (5-8Mb) for the core image. 
 Dockerfile & start up scripts for init.
 
@@ -91,6 +93,8 @@ Username/password for `/protected` is set in dockerfile.
 What is cool is you can simply create a new .md file and directly see it, link it, etc or even a folder and an index.html and it's up and running.
 
 ----
+
+### Make it your own. 
 
 You can also edit from an IDE directly, you might run into perms issues use `chown` and/or `chmod`.
 
