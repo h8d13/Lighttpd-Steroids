@@ -44,8 +44,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--rebuild":
         custom_image = build_custom_image()
         create_new_container(custom_image)
-        print(f"Container ready with web server. Access at httpS://localhost:{host_port}")
-        print(f"Make changes to ./{proj_dir}/{short_project_uuid}/index.html to see live updates")
+        print(f"Container ready with web server. Access at https://localhost")
+        print(f"Make changes to ./{short_project_uuid}/index.html to see live updates")
         print(f"To start the container again, run: python3 run.py")
         stop_docker()
     else:
