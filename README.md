@@ -12,9 +12,7 @@ Create a directory for this to live in, for example `mkdir awesomelua`
 Download the run.py script this contains the docker script to start the container with proper commands (check if you want to modify anything)
 Or use commands manually if you're a wizard. 
 
-Go to the release page and download the tar archive:
-
-[1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
+Go to the release page and download the tar archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
 
 Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
 
@@ -41,8 +39,10 @@ Lighttpd conf for custom modules
 
 UTF-8 and HTTPS Built-in 
 
-Finally markdown render using this project from 11 years ago: [luamarkdown](https://github.com/speedata/luamarkdown/tree/master) It contains 1300 lines of code of clever parsing. This is passed to smaller script that sets global styles for all .md content. 
+Finally markdown render using this project from 11 years ago: [luamarkdown](https://github.com/speedata/luamarkdown/tree/master) It contains 1300 lines of code of clever parsing. 
 
+This is passed to smaller CGI-BIN script that sets global css/html styles for all .md content. 
+This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together. 
 
 
 
