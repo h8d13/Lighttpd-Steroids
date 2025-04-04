@@ -32,11 +32,17 @@ Good to go you can simply: `sudo python3 run.py`
 How this project works:
 
 Simple start/rebuild python script.
+
 Uses Alpine (5-8Mb) for the core image. 
+
 Dockerfile & start up scripts for init.
+
 Lighttpd conf for custom modules
+
 UTF-8 and HTTPS Built-in 
+
 Finally markdown render using this project from 11 years ago: [luamarkdown](https://github.com/speedata/luamarkdown/tree/master)
+
 It contains 1300 lines of code of clever parsing. This is passed to smaller script that sets global styles for all .md content. 
 
 
