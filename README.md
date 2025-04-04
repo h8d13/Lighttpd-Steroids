@@ -16,13 +16,14 @@ Go to the release page and download the tar archive:
 
 [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
 
-Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using the file viewer :)
+Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
 
 Move to the directory you created and just make sure it is so:
-
+```
 /awesomelua
 \-- run.py
 \-- 266749/
+```
 
 Good to go you can simply: `sudo python3 run.py`
 
