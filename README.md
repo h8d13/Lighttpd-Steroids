@@ -73,12 +73,14 @@ From there I created two directories:
 |---- static/
 |-- intro.md
 
-/protected # password zone
+/protected
 |-- hello.md
 ```
-Password is set in dockerfile. 
+Username/password for `/protected` is set in dockerfile. 
 > File listing is automatic of these dirs (hides "." files in tree so it's less clutered.
 
 What is cool is you can simply create a new .md file and directly see it, link it, etc or even a folder and an index.html and it's up and running.
 
 ----
+
+
