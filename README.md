@@ -47,7 +47,7 @@ UTF-8 and HTTPS Built-in
 Finally markdown render using this project from 11 years ago: [luamarkdown](https://github.com/speedata/luamarkdown/tree/master) It contains 1300 lines of code of clever parsing. 
 
 This is passed to smaller CGI-BIN script that sets global css/html styles for all .md content. 
-This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together. 
+This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together with the convenience of this format over HTML/CSS. 
 
 
 
