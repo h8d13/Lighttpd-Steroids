@@ -43,10 +43,11 @@ Then open your browser to `https://localhost`
 
 ### How this project works:
 
-Simple start/rebuild python script. `--rebuild`
+Simple start/rebuild python script using `--rebuild` arg. 
 `sudo python3 run.py --rebuild`
+
 > This saves enourmous time creating new features or adding system packages / configs.
-> ALso should have a proper close mechanism. 
+> Also both should have a proper close mechanism which makes it convenient as it detects `exit`  
 
 Uses Alpine (5-8Mb) for the core image. 
 Dockerfile & start up scripts for init.
