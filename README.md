@@ -12,6 +12,16 @@ Create a directory for this to live in, for example `mkdir awesomelua`
 Download the run.py script this contains the docker script to start the container with proper commands (check if you want to modify anything)
 Or use commands manually if you're a wizard. 
 
+It also contains configuration:
+```
+image = "alpine:latest" 
+short_project_uuid = "266749"
+pprefix = "sudo"
+proj_dir = "Projects"
+host_port = "443"
+container_port = "443"
+``` 
+
 Go to the release page and download the tar archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
 
 Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
