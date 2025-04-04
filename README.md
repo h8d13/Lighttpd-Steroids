@@ -32,7 +32,7 @@ Extract it:
 
 Move to the directory you created using `cd` and just make sure it is as so:
 ```
-/awesomelua
+/awesomeclua
 |-- 266749/
 |-- run.py
 ```
