@@ -89,6 +89,6 @@ What is cool is you can simply create a new .md file and directly see it, link i
 
 ----
 
-You can also edit from an IDE directly, you might run into access issues use `chown` and/or `chmod`.
+You can also edit from an IDE directly, you might run into perms issues use `chown` and/or `chmod`.
 
 
