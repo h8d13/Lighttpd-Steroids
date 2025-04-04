@@ -63,3 +63,22 @@ This with added emojis makes it more fun to work with as you can create kind of 
 
 ![Screenshot from 2025-04-04 03-38-08](https://github.com/user-attachments/assets/ce0faedf-46a0-43a5-b071-9e0b36fad881)
 
+----
+
+From there I created two directories:
+```
+/tree
+|-- .hid/
+|---- sources/
+|---- static/
+|-- intro.md
+
+/protected # password zone
+|-- hello.md
+```
+Password is set in dockerfile. 
+> File listing is automatic of these dirs (hides "." files in tree so it's less clutered.
+
+What is cool is you can simply create a new .md file and directly see it, link it, etc or even a folder and an index.html and it's up and running.
+
+----
