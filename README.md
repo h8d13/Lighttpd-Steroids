@@ -60,6 +60,5 @@ Finally markdown render using this project from 11 years ago: [luamarkdown](http
 This is passed to smaller CGI-BIN script that sets global css/html styles for all .md content. 
 This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together with the convenience of this format over HTML/CSS. 
 
-
-
+![Screenshot from 2025-04-04 03-38-08](https://github.com/user-attachments/assets/ce0faedf-46a0-43a5-b071-9e0b36fad881)
 
