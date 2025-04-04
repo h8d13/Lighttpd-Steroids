@@ -25,6 +25,8 @@ Move to the directory you created using `cd` and just make sure it is so:
 
 Good to go you can simply: `sudo python3 run.py`
 
+Then open your browser to `https://localhost
+
 ----
 
 ### How this project works:
