@@ -24,6 +24,7 @@ container_port = "443"
 ``` 
 
 Go to the release page and download the tar archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
+Or use the `.zip` in the repo. 
 
 Extract it: 
 
@@ -37,7 +38,6 @@ Move to the directory you created using `cd` and just make sure it is as so:
 ```
 
 **If you directory looks like that^ you're good to go!**
-
 
 `$ sudo python3 run.py`
 
