@@ -9,7 +9,7 @@ Prereqs: Docker
 
 Create a directory for this to live in, for example `mkdir awesomelua`
 
-Download the run.py script this contains the docker script to start the container with proper commands (check if you want to modify anything)
+Download the `run.py` script (in the repo) this contains the docker script to start the container with proper commands (check if you want to modify anything)
 Or use commands manually if you're a wizard. 
 
 It also contains configuration:
@@ -26,26 +26,27 @@ Go to the release page and download the tar archive: [1.1 Release](https://githu
 
 Extract it: `tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
 
-Move to the directory you created using `cd` and just make sure it is so:
+Move to the directory you created using `cd` and just make sure it is as so:
 ```
 /awesomelua
-\-- run.py
-\-- 266749/
+|-- 266749/
+|-- run.py
 ```
 
-Good to go you can simply: `sudo python3 run.py`
+If it is like this, good to go you can simply: `sudo python3 run.py`
 
 Then open your browser to `https://localhost` 
 > Note: you will get a warning because of self-signed certificate. 
+> You normally just accept.
 
 ----
 
 ### How this project works:
 
-Simple start/rebuild python script.
+Simple start/rebuild python script. `--rebuild`
 `sudo python3 run.py --rebuild`
-
-> This saves enourmous time creating new features or adding system packages / configs. 
+> This saves enourmous time creating new features or adding system packages / configs.
+> ALso should have a proper close mechanism. 
 
 Uses Alpine (5-8Mb) for the core image. 
 Dockerfile & start up scripts for init.
