@@ -71,7 +71,6 @@ Finally markdown render using this project from 11 years ago: [luamarkdown](http
 This is passed to smaller CGI-BIN script that sets global css/html styles for all .md content. 
 This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together with the convenience of this format over HTML/CSS. 
 
-![Screenshot from 2025-04-04 03-38-08](https://github.com/user-attachments/assets/ce0faedf-46a0-43a5-b071-9e0b36fad881)
 
 ----
 
@@ -90,6 +89,13 @@ Username/password for `/protected` is set in dockerfile.
 > File listing is automatic of these dirs (hides "." files in tree so it's less clutered.
 
 What is cool is you can simply create a new .md file and directly see it, link it, etc or even a folder and an index.html and it's up and running.
+
+### Previews
+
+![Screenshot from 2025-04-05 14-40-36](https://github.com/user-attachments/assets/24b8b39d-e65a-43a9-b3d8-6adf36af3dee)
+![Screenshot from 2025-04-05 14-40-29](https://github.com/user-attachments/assets/8ab45c79-d68a-43ee-90e0-d7215062cda8)
+![Screenshot from 2025-04-05 14-40-18](https://github.com/user-attachments/assets/65330b7e-f4d2-47de-86ad-124207b9dcf5)
+
 
 ----
 
