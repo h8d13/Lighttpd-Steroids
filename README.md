@@ -3,7 +3,7 @@ Light httpd is a lightweight C server. It's both light but also fast. With a bit
 
 ---
 
-Prereqs: Docker
+Prereqs: Docker, Linux host system
 
 ### Install instructions
 
