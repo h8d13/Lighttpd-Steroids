@@ -22,13 +22,12 @@ host_port = "443"
 container_port = "443"
 ``` 
 
-Go to the release page and download the tar archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
+Go to the release page and download the ZIP archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
 
-Or use the `.zip` in the repo. 
 
 Extract it: 
 
-`$ tar -xvf 266749.tar -C ./yourfolder/266749` or using a file viewer :)
+`$ sudo python3 run.py --unzip`
 
 Move to the directory you created using `cd` and just make sure it is as so:
 ```
@@ -145,5 +144,5 @@ print("To rebuild with Dockerfile (including web server): python3 run.py --rebui
 ```
 
 Just a whole lot of scripting to properly close/rm a docker container, then rebuild/run. 
-
+And the same for Ziping/Unzip which makes it convenient to save current state/ future releases. 
 
