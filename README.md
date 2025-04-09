@@ -43,7 +43,7 @@ Move to the directory you created using `cd` and just make sure it is as so:
 This will simply run/attach the container with specified settings: If it's your first use use: `--rebuild` 
 It should also have a proper close mechanism that will prompt for password. 
 
-Then open your browser to `https://localhost` 
+Then open your browser to `https://localhost` if you used 443 or `https://localhost:8443` if you used another port.
 > Note: you will get a warning because of self-signed certificate. 
 > You normally just accept.
 
