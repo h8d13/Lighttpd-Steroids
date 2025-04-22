@@ -18,12 +18,11 @@ It also contains configuration:
 image = "alpine:latest" 
 short_project_uuid = "266749"
 pprefix = "sudo"
-host_port = "443"
+host_port = "8443"
 container_port = "443"
 ``` 
 
 Go to the release page and download the ZIP archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
-
 
 Extract it: 
 
@@ -66,11 +65,12 @@ Lighttpd conf for custom modules
 
 UTF-8 and HTTPS Built-in 
 
-Finally markdown render using this project from 11 years ago: [luamarkdown](https://github.com/speedata/luamarkdown/tree/master) It contains 1300 lines of code of clever parsing. 
+**Finally markdown render using this project from 11 years ago:**
+
+[luamarkdown](https://github.com/speedata/luamarkdown/tree/master) It contains 1300 lines of code of clever parsing. 
 
 This is passed to smaller CGI-BIN script that sets global css/html styles for all .md content. 
 This with added emojis makes it more fun to work with as you can create kind of mini sites quickly and link them together with the convenience of this format over HTML/CSS. 
-
 
 ----
 
@@ -151,4 +151,3 @@ print("To rebuild with Dockerfile (including web server): python3 run.py --rebui
 
 Just a whole lot of scripting to properly close/rm a docker container, then rebuild/run. 
 And the same for Ziping/Unzip which makes it convenient to save current state/ future releases. 
-
