@@ -7,7 +7,7 @@ import zipfile
 image = "alpine:latest" 
 short_project_uuid = "266749"
 pprefix = "sudo"
-host_port = "443"
+host_port = "8443"
 container_port = "443"
 zip_file = f"{short_project_uuid}.zip"
 
