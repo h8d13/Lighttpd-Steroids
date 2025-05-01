@@ -6,8 +6,7 @@ import zipfile
 
 image = "alpine:latest" 
 short_project_uuid = "266749"
- = "sudo"
-host_port = "8443"
+host_port = "443"
 container_port = "443"
 zip_file = f"{short_project_uuid}.zip"
 
@@ -63,7 +62,7 @@ if __name__ == "__main__":
         if sys.argv[1] == "--rebuild":
             custom_image = build_custom_image()
             create_new_container(custom_image)
-            print(f"Container ready with web server.)
+            print(f"Container ready with web server.")
             stop_docker()
         elif sys.argv[1] == "--zip":
             zip_directory()
