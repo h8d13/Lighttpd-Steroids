@@ -6,28 +6,28 @@ import zipfile
 
 image = "alpine:latest" 
 short_project_uuid = "266749"
-pprefix = "sudo"
+ = "sudo"
 host_port = "8443"
 container_port = "443"
 zip_file = f"{short_project_uuid}.zip"
 
 def stop_docker():
-    subprocess.run(f"{pprefix} docker stop {short_project_uuid}", shell=True)
+    subprocess.run(f"docker stop {short_project_uuid}", shell=True)
 
 def start_docker():
-    subprocess.run(f"{pprefix} service docker start && {pprefix} docker start {short_project_uuid} && {pprefix} docker attach {short_project_uuid}", shell=True)
+    subprocess.run(f"service docker start && docker start {short_project_uuid} && docker attach {short_project_uuid}", shell=True)
 
 def build_custom_image():
     dockerfile_dir = f"./{short_project_uuid}"
     custom_image_name = f"custom-{short_project_uuid}"
     print(f"Building custom Docker image from Dockerfile...")
-    result = subprocess.run(f"{pprefix} service docker start && {pprefix} docker build -t {custom_image_name} {dockerfile_dir}", shell=True)
+    result = subprocess.run(f"service docker start && docker build -t {custom_image_name} {dockerfile_dir}", shell=True)
     return custom_image_name if result.returncode == 0 else image
 
 def create_new_container(custom_image):
     print(f"Creating new container from custom image...")
-    subprocess.run(f"{pprefix} docker rm {short_project_uuid} 2>/dev/null || true", shell=True)
-    subprocess.run(f"{pprefix} docker run -p {host_port}:{container_port} -v ./{short_project_uuid}:/app{short_project_uuid} -it --name {short_project_uuid} {custom_image}", shell=True)
+    subprocess.run(f"docker rm {short_project_uuid} 2>/dev/null || true", shell=True)
+    subprocess.run(f"docker run -p {host_port}:{container_port} -v ./{short_project_uuid}:/app{short_project_uuid} -it --name {short_project_uuid} {custom_image}", shell=True)
 
 def zip_directory():
     if os.path.exists(f"./{short_project_uuid}"):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
         if sys.argv[1] == "--rebuild":
             custom_image = build_custom_image()
             create_new_container(custom_image)
-            print(f"Container ready with web server. Access at https://localhost")
+            print(f"Container ready with web server.)
             stop_docker()
         elif sys.argv[1] == "--zip":
             zip_directory()
