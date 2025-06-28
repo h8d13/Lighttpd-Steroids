@@ -21,8 +21,7 @@ host_port = "8443"
 container_port = "443"
 ``` 
 
-Go to the release page and download the ZIP archive: [1.1 Release](https://github.com/h8d13/Lighttpd-Steroids/releases/tag/1.1)
-
+Download latest release. 
 Extract it: 
 
 `$ sudo python3 run.py --unzip`
@@ -40,7 +39,7 @@ Move to the directory you created using `cd` and just make sure it is as so:
 
 This will simply run/attach the container with specified settings: If it's your first use use: `--rebuild` 
 
-Then open your browser to `https://localhost`
+Then open your browser to `https://ip:port`
 > Note: you will get a warning because of self-signed certificate. 
 > You normally just accept press advanced > accept.
 
