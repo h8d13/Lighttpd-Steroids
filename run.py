@@ -61,9 +61,11 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         if sys.argv[1] == "--rebuild":
             custom_image = build_custom_image()
+            print(f"Image build success.")
             create_new_container(custom_image)
-            print(f"Container ready with web server.")
+            print(f"Container build success. Exit...")
             stop_docker()
+            print(f"Docker stop success.")
         elif sys.argv[1] == "--zip":
             zip_directory()
         elif sys.argv[1] == "--unzip":
