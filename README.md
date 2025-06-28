@@ -17,7 +17,6 @@ It also contains configuration:
 ```
 image = "alpine:latest" 
 short_project_uuid = "266749"
-pprefix = "sudo"
 host_port = "8443"
 container_port = "443"
 ``` 
